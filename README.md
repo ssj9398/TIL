@@ -8,7 +8,7 @@
 </br>
 
 ## 월별 TIL
-- [2022년 1월](https://github.com/ssj9398/TIL/tree/main/2021-09)
+- [2022년 1월](https://github.com/ssj9398/TIL/tree/main/2022-01)
 
 ## 년도별 들은 강의 & 책
 <details markdown="1">
