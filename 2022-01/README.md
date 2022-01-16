@@ -21,6 +21,18 @@
   - 빈 생명주기 콜백 </br>
   - 빈 스코프 </br>
 
+</details>
+
+<details markdown="1">
+
+<summary>2022년 1월 16일</summary>
+
+- 도커 </br>
+  - 도커 기본 명령어 </br>
+  - 도커 컴포즈 기본 </br>
+- 알고리즘 </br>
+  - [파이썬 기본문법](https://alisyabob.tistory.com/325) </br>
+  - 백준 기초문제 </br>
 
 </details>
 
