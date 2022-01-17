@@ -36,4 +36,18 @@
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 17일</summary>
+
+- 도커 </br>
+  - 도커 이미지 만들기(nginx, nodejs) </br>
+  - 도커 이미지 관리</br>
+  - 도커 이미지 배포</br>
+- 알고리즘 </br>
+  - 백준 기초문제 </br>
+  - 파이썬 알고리즘 인터뷰 </br>
+
+</details>
+
 </br>
