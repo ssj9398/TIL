@@ -50,4 +50,17 @@
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 18일</summary>
+
+- 도커 </br>
+  - Nginx를 이용한 정적 페이지 서버 만들기 </br>
+- 알고리즘 </br>
+  - 백준 기초문제 </br>
+  - 파이썬 알고리즘 인터뷰 책 </br>
+    - 스택, 큐, 연결리스트 </br>
+
+</details>
+
 </br>
