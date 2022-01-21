@@ -93,4 +93,17 @@
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 21일</summary>
+
+- 알고리즘 </br>
+  - 백준 기초문제 </br>
+  - 파이썬 알고리즘 인터뷰 책 </br>
+    - 해시 테이블, 그래프 </br>
+  - 패스트캠퍼스 강의 </br>
+    - bfs, dfs </br>
+
+</details>
+
 </br>
