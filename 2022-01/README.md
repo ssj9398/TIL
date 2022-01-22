@@ -106,4 +106,44 @@
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 22일</summary>
+
+- 도커 </br>
+  - 도커 강의 복습 </br>
+- 알고리즘
+  - 파이썬 알고리즘 인터뷰 책 </br>
+    - 데크, 큐, 그래프 </br>
+  - 패스트캠퍼스 강의 </br>
+    - 트리, 해쉬테이블 </br>
+- 그래프(dfs) 부분집합 발표
+```python
+  - from typing import List
+
+class test:
+    def subsets(self, nums: List[int]) -> List[int]:
+
+        # 결과를 받을 빈배열 생성
+        res = []
+
+        def dfs(index, path):
+            res.append(path)
+
+            print("res", res)
+            for i in range(index, len(nums)):
+                print("-------------------------------")
+                print("iiii",i)
+                dfs(i + 1, path + [nums[i]])
+                print("path", path, "nums", [nums[i]])
+
+        dfs(0, [])
+        return res
+
+test = test()
+test.subsets([1, 2, 3])
+```
+
+</details>
+
 </br>
