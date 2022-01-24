@@ -148,4 +148,18 @@ test.subsets([1, 2, 3])
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 24일</summary>
+
+- 알고리즘 </br>
+  - 백준 기초문제 </br>
+  - 패스트캠퍼스 강의 </br>
+    - 백트래킹 </br>
+- 스프링
+  - 싱글톤 컨테이너
+  - 컴포넌트 스캔 
+
+</details>
+
 </br>
