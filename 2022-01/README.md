@@ -177,4 +177,13 @@ test.subsets([1, 2, 3])
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 26일</summary>
+
+- 알고리즘 </br>
+  - 백준 기초문제, 프로그래머스 </br>
+
+</details>
+
 </br>
