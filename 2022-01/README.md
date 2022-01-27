@@ -186,4 +186,19 @@ test.subsets([1, 2, 3])
 
 </details>
 
+</details>
+
+<details markdown="1">
+
+<summary>2022년 1월 27일</summary>
+
+- 알고리즘 </br>
+  - 백준 문제(브론즈), 프로그래머스 문제(LEVEL1) </br>
+- 스프링 </br>
+  - JPA소개 </br>
+  - JPA 시작하기 </br>
+  - 영속성 관리 - 내부 동작 방식 </br>
+
+</details>
+
 </br>
