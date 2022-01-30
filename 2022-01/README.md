@@ -201,4 +201,25 @@ test.subsets([1, 2, 3])
 
 </details>
 
+<details markdown="1">
+
+<summary>2022년 1월 28일</summary>
+
+- 알고리즘 </br>
+  - 백준 문제(브론즈), 프로그래머스 문제(LEVEL1) </br>
+- 알고리즘 인터뷰 </br>
+  - 힙 </br>
 </br>
+
+</details>
+
+<details markdown="1">
+
+<summary>2022년 1월 29일</summary>
+
+- 알고리즘 </br>
+  - 백준 문제(브론즈), 프로그래머스 문제(LEVEL1) </br>
+- 알고리즘 인터뷰 </br>
+  - 정렬 </br>
+
+</details>
