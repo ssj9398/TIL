@@ -37,6 +37,8 @@
 - 사이드 프로젝트 설계 </br>
 </details>
 
+<details markdown="1">
+
 <summary>2022년 2월 4일</summary>
 
 - 알고리즘 </br>
@@ -44,4 +46,14 @@
 - 트랜잭션, DOM공부 </br>
 - 사이드 프로젝트 개발 시작 </br>
   - 엔티티 타입 수정, 단순 회원가입, 탈퇴 및 조회 기능 추가, validation gradle 추가
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 5일</summary>
+
+- 알고리즘 </br>
+  - 이진탐색 강의, 프로그래머스 level1 2문제 </br>
+- 사이드 프로젝트 개발 시작 </br>
+  - 찜리스트 테이블 추가, 연관관계 메소드 추가(댓글 등록), 회원정보 수정,회원가입 시간 추가, springSecurity 초기설정, 엔티티 권한컬럼 추가, 구글, 네이버 로그인(Oauth2) 추가, Builder 추가
 </details>
