@@ -70,3 +70,118 @@
   - 마이페이지(사용자 엔티티) setter 제거 및 dto로 반환 </br>
   - 무분별한 setter 남용 방지 protected 추가, 내관심글 로직 추가 </br>
 </details>
+
+<details markdown="1">
+
+<summary>2022년 2월 7일</summary>
+
+- 알고리즘 </br>
+  - 최단경로 강의, 프로그래머스 level1 2문제 </br>
+- CORS 공부
+- 사이드 프로젝트 개발 시작 </br>
+  - 내 작성글 조회, setter 제거,  n+1 문제 fetch join으로 해결 </br>
+  - 마이페이지(사용자 엔티티) setter 제거 및 dto로 반환 </br>
+  - 무분별한 setter 남용 방지 protected 추가, 내관심글 로직 추가 </br>
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 8일</summary>
+
+- 알고리즘 </br>
+  - 최단경로 강의, 프로그래머스 level1 2문제 </br>
+- 사이드 프로젝트 개발 시작 </br>
+  - 내관심글 조회, 삭제 로직 추가, 관심게시물 삭제 추가, Role enum 타입으로 변경 </br>
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 9일</summary>
+
+- 알고리즘 </br>
+  - DP 강의, 프로그래머스 level1 2문제 </br>
+- 사이드 프로젝트 개발 시작 </br>
+  - 찜리스트 조회 삭제 수정, 리액트와의 연결을 위한 CORS 설정 </br>
+  - 위시리스트 전체조회 추가, response 커스터마이징, MemberController 리팩토링 </br>
+  - 예외처리 RuntimeException 커스터마이징 추가, 찜하기 부분 리팩토링 </br>
+
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 10일</summary>
+
+- 알고리즘 </br>
+  - 프로그래머스 level1 2문제 </br>
+- 사이드 프로젝트 개발 시작 </br>
+  - JSON, 라이브러리 추가, 카카오 로그인 추가, 관심글 이미 등록 된거 추가등록 방지를 위한 예외처리 </br>
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 11일</summary>
+
+- 항해 과제 프로젝트 개발 시작 </br>
+  - Docker, gitAction을 이용한 CI 구축 완료
+    - 도커파일을 추가한다. (Dockerfile)
+    ```
+    # 1. node 설치
+    FROM openjdk:8-jdk-alpine
+    ARG JAR_FILE=build/libs/app.jar
+    # 2. 소스 복사
+    COPY ${JAR_FILE} app.jar
+    ENTRYPOINT [ "java", "-jar","/app.jar" ]
+    EXPOSE 80
+    ```
+    - gitAction으로 main으로 푸시하면 도커로 푸시하기위해 pipeline을 추가한다.
+    - (.github/workflows/ci-pipeline.yml)
+    ```yml
+    name: Java CI with Gradle
+
+    on:
+      push:
+        branches: [ main ]
+      pull_request:
+        branches: [ main ]
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Set up JDK 11
+          uses: actions/setup-java@v2
+          with:
+            java-version: '11'
+            distribution: 'adopt'
+        - name: Grant execute permission for gradlew
+          run:  chmod +x gradlew
+        - name: Build with Gradle
+          run: ./gradlew build
+        - name: Docker build
+          run: |
+            docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.PASSWORD }}
+            docker build -t spring-boot .
+            docker tag spring-boot alisyabob/spring-boot:${GITHUB_SHA::7}
+            docker push alisyabob/spring-boot:${GITHUB_SHA::7}
+    ```
+    - 편의를 위해build.gradle 수정해주기
+    ```java
+    jar {
+        enabled = false
+    }
+
+    bootJar{ archivesBaseName = 'app'
+        archiveFileName = 'app.jar'
+        archiveVersion = "0.0.0"
+    }
+    ```
+    - 수동으로 도커 허브에 올리는 방법
+    ```
+    docker build -t spring-boot .
+    docker run -d -p 80:80 spring-boot
+    docker tag spring-boot 계정/spring-boot
+    docker push 계정/spring-boot
+    ```
+
+
+</details>
