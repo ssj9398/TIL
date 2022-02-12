@@ -124,16 +124,16 @@
 - 항해 과제 프로젝트 개발 시작 </br>
   - 게시글 전체 조회 완료
     - 제목, 작성자명, 작성 날짜를 조회하기
-    - 작성 날짜 기준으로 내림차순 정렬하기
+    - 작성 날짜 기준으로 내림차순 정렬하기 </br>
   - 게시글 작성
-    - 제목, 작성자명, 작성 내용을 입력하기
+    - 제목, 작성자명, 작성 내용을 입력하기 </br>
   - 게시글 상세 조회
-    - 제목, 작성자명, 작성 날짜, 작성 내용을 조회하기
+    - 제목, 작성자명, 작성 날짜, 작성 내용을 조회하기 </br>
   - 게시글 수정
-    - 제목, 작성자명, 작성 내용 중 원하는 내용을 수정하기
+    - 제목, 작성자명, 작성 내용 중 원하는 내용을 수정하기 </br>
   - 게시글 삭제
-    - 원하는 게시물을 삭제하기
-  - 게시글 등록 테스트 코드 완료
+    - 원하는 게시물을 삭제하기 </br>
+  - 게시글 등록 테스트 코드 완료 </br>
   - Docker, gitAction을 이용한 CI 구축 완료
     - 도커파일을 추가한다. (Dockerfile)
     ```
@@ -145,7 +145,7 @@
     ENTRYPOINT [ "java", "-jar","/app.jar" ]
     EXPOSE 80
     ```
-    - gitAction으로 main으로 푸시하면 도커로 푸시하기위해 pipeline을 추가한다.
+    - gitAction으로 main으로 푸시하면 도커로 푸시하기위해 pipeline을 추가한다. </br>
     - (.github/workflows/ci-pipeline.yml)
     ```yml
     name: Java CI with Gradle
@@ -176,6 +176,9 @@
             docker tag spring-boot alisyabob/spring-boot:${GITHUB_SHA::7}
             docker push alisyabob/spring-boot:${GITHUB_SHA::7}
     ```
+    
+    </br>
+
     - 편의를 위해build.gradle 수정해주기
     ```java
     jar {
