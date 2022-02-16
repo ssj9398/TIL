@@ -229,3 +229,22 @@
     - 게시글 전체조회, 게시글 수정, 게시글 등록, 게시글 상세 타임리프로 구현 </br>
 </details>
 
+<details markdown="1">
+
+<summary>2022년 2월 14일</summary>
+
+- 항해 과제 프로젝트 개발 시작 </br>
+  - 댓글 </br>
+    - 댓글 내림차순 쿼리 추가, 게시글 리스트, 상세게시글, 댓글 뷰 추가, 게시글 수정 추가 </br>
+    -  n+1쿼리 fetch조인으로 변경, ResponseEntity 추가  </br>
+  - 뷰 </br>
+    - 게시글 전체조회, 게시글 수정, 게시글 등록, 게시글 상세 타임리프로 구현 </br>
+</details>
+
+<details markdown="1">
+
+<summary>2022년 2월 15일</summary>
+
+- 항해 과제 프로젝트 개발 시작 </br>
+  - 도커 파일 java build version 수정, naverCloud 및 aws Rds 배포 완료
+</details>
