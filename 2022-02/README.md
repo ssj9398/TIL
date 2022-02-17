@@ -137,7 +137,7 @@
   - Docker, gitAction을 이용한 CI 구축 완료
     - 도커파일을 추가한다. (Dockerfile)
     ```
-    # 1. node 설치
+    # 1. java 설치
     FROM openjdk:8-jdk-alpine
     ARG JAR_FILE=build/libs/app.jar
     # 2. 소스 복사
