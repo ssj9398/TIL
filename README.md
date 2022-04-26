@@ -6,6 +6,8 @@
 - [Spring-Security](https://github.com/ssj9398/Spring-Security)
 - [Msa](https://github.com/ssj9398/Spring-Cloud-Microservices-Architecture)
 - [docker](https://github.com/ssj9398/docker)
+- [myBlog](https://github.com/ssj9398/myBlog)
+- [Magazine](https://github.com/ssj9398/Magazine)
 - [triPlan](https://github.com/24hours-not-enough/BE)
 - [Java](https://github.com/fall-in-java/alisyabob)
 
