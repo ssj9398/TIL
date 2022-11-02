@@ -1,16 +1,27 @@
 ## TIL 진행중인 repository
 - [study-Site](https://github.com/ssj9398/study-Site)
-- [ps](https://github.com/ssj9398/ps)
-- [spring](https://github.com/ssj9398/SpringPractice)
-- [spring-Jpa](https://github.com/ssj9398/SpringBoot-Jpa)
-- [Spring-Security](https://github.com/ssj9398/Spring-Security)
-- [Msa](https://github.com/ssj9398/Spring-Cloud-Microservices-Architecture)
-- [docker](https://github.com/ssj9398/docker)
-- [myBlog](https://github.com/ssj9398/myBlog)
-- [Magazine](https://github.com/ssj9398/Magazine)
-- [triPlan](https://github.com/24hours-not-enough/BE)
-- [Java](https://github.com/fall-in-java/alisyabob)
 
+- [알고리즘](https://github.com/ssj9398/ps)
+
+- [Spring](https://github.com/ssj9398/SpringPractice)
+- [Spring-Jpa](https://github.com/ssj9398/SpringBoot-Jpa)
+- [Spring-Security](https://github.com/ssj9398/Spring-Security)
+
+- [Msa](https://github.com/ssj9398/Spring-Cloud-Microservices-Architecture)
+- [Docker](https://github.com/ssj9398/docker)
+- [Elasticsearch](https://github.com/ssj9398/spring-elasticsearch)
+
+- [Java](https://github.com/fall-in-java/alisyabob)
+- [TestCode](https://github.com/ssj9398/NextStep)
+
+## 프로젝트
+- [MyBlog](https://github.com/ssj9398/myBlog)
+- [Magazine](https://github.com/ssj9398/Magazine)
+- [TriPlan](https://github.com/24hours-not-enough/BE)
+- [ShortUrl](https://github.com/ssj9398/ShortUrl)
+- [ElectricCar](https://github.com/ssj9398/Electric-Car)
+
+- [SrtMacro](https://github.com/ssj9398/python-srt-macro)
 </br>
 
 ## 월별 TIL
