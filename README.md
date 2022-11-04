@@ -16,6 +16,7 @@
 
 ## 프로젝트
 - [ArtOn](https://github.com/art-on/art-server)
+- [동시성프로젝트](https://github.com/ssj9398/concurrency-stock)
 - [ShortUrl](https://github.com/ssj9398/ShortUrl)
 - [ElectricCar](https://github.com/ssj9398/Electric-Car)
 - [HealthCare](https://github.com/health-functional-food-project/backend)
